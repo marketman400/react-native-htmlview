@@ -4,11 +4,13 @@ import {Linking, StyleSheet, View, ViewPropTypes} from 'react-native';
 
 const boldStyle = {fontWeight: '500'};
 const italicStyle = {fontStyle: 'italic'};
-const codeStyle = {fontFamily: 'Menlo'};
+const codeStyle = {fontFamily: 'Helvetica'};
+const pStyle = {marginBottom: 0};
 
 const baseStyles = StyleSheet.create({
   b: boldStyle,
   strong: boldStyle,
+  p: pStyle,
   i: italicStyle,
   em: italicStyle,
   pre: codeStyle,
